@@ -7,6 +7,20 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
+﻿# Main
+.vscode/
+.vs/
+node_modules/
+.angular/
+data/
+
+#Specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
